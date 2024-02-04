@@ -1,41 +1,9 @@
-# Website
+# STEL Hosting Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator, and hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
 
-### Installation
+### Contributing
 
-```
-$ yarn
-```
+If you'd like to contribute to the docs, you are welcome to fork this repository and submit a pull request with your changes. All requests will be reviewed for accuracy and quality assurance.
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Thank you for contributing!
