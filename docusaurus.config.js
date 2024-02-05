@@ -58,10 +58,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'STEL Hosting Documentation',
+        title: 'STEL Hosting Docs',
         logo: {
           alt: 'STEL Hosting Logo',
           src: 'img/logo.svg',
@@ -76,7 +81,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/STEL-Hosting/STEL-Hosting-Docs/',
-            label: 'GitHub',
+            label: 'Contribute to the Docs',
             position: 'right',
           },
         ],
@@ -124,7 +129,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} STEL Hosting, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
