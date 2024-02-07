@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Intro
+title: Introduction
 slug: /
 hide_table_of_contents: true
 sidebar_label: Welcome
