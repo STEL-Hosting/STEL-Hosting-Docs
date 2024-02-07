@@ -1,3 +1,8 @@
+---
+id: java-versions
+hide_table_of_contents: true
+sidebar_label: Changing Java Versions
+---
 ## Introduction to Java Versions
 Different versions of Minecraft may require different versions of Java to properly run. At STEL Hosting, our host systems automatically detect your server's startup Jar file and match it with the appropriate Java version to run. If our host system cannot detect the necessary Java version, it will default to Java 11. This can sometimes lead to startup errors as the Java 11 default may not be the correct Java version to start the server.
 
