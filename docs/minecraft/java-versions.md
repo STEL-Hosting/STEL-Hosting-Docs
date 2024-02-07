@@ -1,6 +1,8 @@
 ---
 id: java-versions
+title: Java Versions
 hide_table_of_contents: true
+slug: /changing-java-versions
 sidebar_label: Changing Java Versions
 ---
 ## Introduction to Java Versions
