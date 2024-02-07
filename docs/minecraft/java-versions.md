@@ -6,7 +6,7 @@ Generally, the following recommended Minecraft and Java versions are as follows:
 Version 1.8 to 1.11: Java 8
 <br/>
 Version 1.12 to 1.16.4: Java 11
-<b/r>
+<br/>
 Version 1.16.5: Java 16
 <br/>
 Version 1.17.1 to latest: Java 17
