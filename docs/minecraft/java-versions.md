@@ -11,11 +11,11 @@ Different versions of Minecraft may require different versions of Java to proper
 Generally, the following recommended Minecraft and Java versions are as follows:
 
 Version 1.8 to 1.11: Java 8
-<br/>
+
 Version 1.12 to 1.16.4: Java 11
-<br/>
+
 Version 1.16.5: Java 16
-<br/>
+
 Version 1.17.1 to latest: Java 17
 
 ## Why would I ever need to manually change Java versions?
