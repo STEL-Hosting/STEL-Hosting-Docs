@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
+  title: 'STEL Docs',
   tagline: 'Documentation for STEL Hosting',
   favicon: 'img/favicon.ico',
 
