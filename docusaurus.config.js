@@ -73,12 +73,20 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            href: 'https://stelhosting.com',
+            label: 'Website',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://discord.gg/GuYuEtcvBy',
+            label: 'Community Discord',
+            position: 'left',
+          },
+          {
+            href: 'https://status.stelhosting.com',
+            label: 'Server Status',
+            position: 'left',
+          },
           {
             href: 'https://github.com/STEL-Hosting/STEL-Hosting-Docs/',
             label: 'Contribute to the Docs',
@@ -88,47 +96,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Relevant Links',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://stelhosting.com',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/GuYuEtcvBy',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/STELHosting',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/STEL-Hosting/STEL-Hosting-Docs',
-              },
-            ],
-          },
-        ],
         copyright: `Copyright © ${new Date().getFullYear()} STEL Hosting, Built with Docusaurus.`,
       },
       prism: {
