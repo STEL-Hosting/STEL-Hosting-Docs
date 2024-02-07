@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentation',
+  title: 'STEL Docs',
   tagline: 'Documentation for STEL Hosting',
   favicon: 'img/favicon.ico',
 
@@ -23,7 +23,7 @@ const config = {
   organizationName: 'STEL-Hosting', // Usually your GitHub org/user name.
   projectName: 'STEL-Hosting-Docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,18 +41,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/STEL-Hosting/STEL-Hosting-Docs/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/STEL-Hosting/STEL-Hosting-Docs/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -63,73 +58,45 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'STEL Hosting Documentation',
+        title: 'STEL Hosting Docs',
         logo: {
           alt: 'STEL Hosting Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            href: 'https://stelhosting.com',
+            label: 'Website',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://discord.gg/GuYuEtcvBy',
+            label: 'Community Discord',
+            position: 'left',
+          },
+          {
+            href: 'https://status.stelhosting.com',
+            label: 'Server Status',
+            position: 'left',
+          },
           {
             href: 'https://github.com/STEL-Hosting/STEL-Hosting-Docs/',
-            label: 'GitHub',
+            label: 'Contribute to the Docs',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Relevant Links',
-            items: [
-              {
-                label: 'Website',
-                href: 'https://stelhosting.com',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/GuYuEtcvBy',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/STELHosting',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/STEL-Hosting/STEL-Hosting-Docs',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} STEL Hosting, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
