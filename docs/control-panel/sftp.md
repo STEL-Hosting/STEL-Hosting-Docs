@@ -18,6 +18,8 @@ First, head over to our [control panel](https://panel.stelhosting.com/) and clic
 
 Then, click on the `System` tab and then `SFTP Details`. You will need to copy the `Connection Address` and `Username`
 
+![SFTP Credentials](/img/sftp.png)
+
 ## Connecting via WinSCP (easiest)
 We recommend using WinSCP since it is easily accessible with our control panel.
 
