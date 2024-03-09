@@ -2,7 +2,7 @@
 id: whitelist
 title: Whitelist
 hide_table_of_contents: true
-slug: /using-the-whitelist
+slug: /whitelist
 sidebar_label: Using the Whitelist
 ---
 ## Introduction to the Whitelist
