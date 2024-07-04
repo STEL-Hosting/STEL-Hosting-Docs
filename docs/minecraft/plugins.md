@@ -13,29 +13,31 @@ Minecraft plugins are add-ons to Minecraft servers. There are many different typ
 Vanilla Minecraft does not have native support for plugins. To use plugins, you must install your server with the necessary server software. The server software must be based on the Bukkit server software (CraftBukkit, Spigot, Paper, Purpur, etc). We recommend using Paper for your server software. Visit our [Changing Server Versions](https://docs.stelhosting.com/changing-server-versions) article to learn how to change your Minecraft server software to Paper.
 :::
 
-## Installing Plugins via 1-Click Installer
-Our control panel offers 1-click installations of various Minecraft plugins.
+## Installing Plugins via One-Click Installer
+Our control panel offers one-click installations of various Minecraft plugins.
 
-First, log in to the [control panel](https://panel.stelhosting.com/)
+First, log in to the [control panel](https://control.stelhosting.com/)
 
-Once logged in, click on the `Tools` menu and then on the `Plugin Manager` tab
+Once logged in, scroll down on the left-hand side navigation bar until you see the `Configuration` category. In this category, there will be a tab labeled `Plugins`. Click on this tab to access the plugin installer.
 
 ![Plugins](/img/plugins.png)
 
-You will now be able to see a full list of plugins offered on our control panel. If you don't see a plugin on the list, you can use the search bar to help you with your search.
+You will now be able to see a full list of plugins offered on our control panel. If you don't see a plugin in the list, you can use the search bar to help you with your search.
 
-To install a plugin, simply click on the `Install` button next to your desired plugin.
+Our plugin installer can pull plugins from 5 different sources: CurseForge, Hangar, Modrinth, Polymart, and SpigotMC. If you can't find the plugin you're looking for, you can change the provider to another source.
+
+To install a plugin, click on the download icon next to your desired plugin.
 
 ### Some plugins may require you to download and install them manually.
-To do this, click on the "Download Manually" button of the plugin you wish to install.
+To do this, click on the redirect button of the plugin you wish to install.
 
-There are 2 things that should happen when you press this button:
+There are 2 things that can happen when you press this button:
 
 1) You will immediately begin downloading a .jar file for that plugin
 
 2) You will be redirected to the plugin's download page where you can download the .jar file from there
 
-Once you have the .jar file for the plugin, head over to your server's File Manager and upload them to the `plugins` folder. If you don't have a `plugins` folder, make sure that you have properly installed and started up your Bukkit-based server.
+Once you have the .jar file for the plugin, head over to your server's File tab and upload them to the `plugins` folder. If you don't have a `plugins` folder, make sure that you have properly installed and started up your Bukkit-based server.
 
 
 Once your plugins are installed, make sure to restart your server so your plugin can be properly loaded!
