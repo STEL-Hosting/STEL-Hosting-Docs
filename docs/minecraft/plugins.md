@@ -10,7 +10,7 @@ Minecraft plugins are add-ons to Minecraft servers. There are many different typ
 
 
 :::info
-Vanilla Minecraft does not have native support for plugins. To use plugins, you must install your server with the necessary server software. The server software must be based on the Bukkit server software (CraftBukkit, Spigot, Paper, Purpur, etc). We recommend using Paper for your server software. Visit our [Changing Server Versions](https://docs.stelhosting.com/changing-server-versions) article to learn how to change your Minecraft server software to Paper.
+Vanilla Minecraft does not have native support for plugins. To use plugins, you must install your server with the necessary server software. The server software must be based on the Bukkit server software (CraftBukkit, Spigot, Paper, Purpur, etc). We recommend using Purpur for your server software, as it offers the best performance. Visit our [Changing Server Versions](https://docs.stelhosting.com/changing-server-versions) article to learn how to change your Minecraft server software to Purpur.
 :::
 
 ## Installing Plugins via One-Click Installer
