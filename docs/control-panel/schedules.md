@@ -10,7 +10,7 @@ With our schedules feature, you can run a server command, power action, or backu
 
 We recommend checking out the [Crontab Guru](https://crontab.guru/examples.html) website for a list of cron expression examples.
 
-### Daily Backup Schedule Example with Announcements
+### Daily Backup Schedule Example
 A commonly set up schedule creates a backup of the server every day. In this example, we will be creating a schedule that creates a backup at midnight every day.
 
 First, log in to the [control panel](https://control.stelhosting.com/) and click on your server to manage it.
@@ -42,7 +42,7 @@ Once the schedule is complete, it should look like this:
 *insert screenshot*
 
 <details>
-<summary>Example and guide</summary>
+<summary>Example</summary>
 
 In this example, we will be creating an announcement 60 seconds before the backup is taken.
 
