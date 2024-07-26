@@ -19,7 +19,7 @@ On this page, you will see all the versions we offer on our one-click installer.
 
 From there, choose your desired server software from the list, and then choose the Minecraft version you would like to play on. You may also choose the build number of the server software if applicable and optionally choose to wipe your server files before installing your new server software.
 
-:::danger
+:::warning
 **Be careful!** Wiping your server is permanent and irreversible. If you choose to wipe it, do a backup before proceeding, if it contains any data.
 :::
 
