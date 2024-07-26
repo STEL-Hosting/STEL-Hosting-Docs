@@ -21,5 +21,6 @@ From there, choose your desired server software from the list, and then choose t
 
 :::danger
 **Be careful!** Wiping your server is permanent and irreversible. If you choose to wipe it, do a backup before proceeding, if it contains any data.
+:::
 
 If you have any questions, feel free to contact our support for further assistance.
