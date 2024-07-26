@@ -35,11 +35,11 @@ A new menu will pop up asking for the task arguments.
 
 Create a task with the action `Create backup`. This will tell the schedule to create a backup.
 
-:::info
-When the backup action is called, your server will **not** be automatically stopped. This is because our panel's backup system uses a method that is very unlikely to corrupt your files when the server is running. Still, you may wish to add `Send power action` actions before (recommended at least 30s before) and after (recommended at least 60s after) the backup action, to stop and start the server, to completely prevent the possibility of file corruption, and because frequent restarting may be beneficial for your server's performance. We also recommend adding announcements (that the server is being restarted) using `Send command` actions that send the `say` command (or something else like the `tellraw` command or the `broadcast` command from EssentialsX, if you have it).
-
 Once the schedule is complete, it should look like this:
 *insert screenshot*
+
+:::info
+When the backup action is called, your server will **not** be automatically stopped. This is because our panel's backup system uses a method that is very unlikely to corrupt your files when the server is running. Still, you may wish to add `Send power action` actions before (recommended at least 30s before) and after (recommended at least 60s after) the backup action, to stop and start the server, to completely prevent the possibility of file corruption, and because frequent restarting may be beneficial for your server's performance. We also recommend adding announcements (that the server is being restarted) using `Send command` actions that send the `say` command (or something else like the `tellraw` command or the `broadcast` command from EssentialsX, if you have it).
 
 <details>
 <summary>Example</summary>
