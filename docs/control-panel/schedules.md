@@ -81,7 +81,7 @@ Once the schedule is complete, it should look like this:
 :::
 
 :::note
-You can have a maximum of 10 actions in one schedule.
+You can have a maximum of 25 actions in one schedule.
 :::
 
 You are welcome to change the schedule however you'd like. If you need any additional help with schedules or have any questions, feel free to contact our support team!
