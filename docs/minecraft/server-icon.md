@@ -26,7 +26,7 @@ Most photo editing software will allow you to resize an image to `64px x 64px` a
 
 The `server-icon.png` file needs to be placed in the server's root directory. That is, in the same folder as the `server.jar` file. You can either:
 
-- Upload the image using the STEL Hosting server panel — in the sidebar, navigate to `General` then `Files`.
+- Upload the image using the STEL Hosting server panel — in the sidebar, navigate to `Files`.
 - Or, upload the image using SFTP — read our guide on [accessing your server files via SFTP](https://docs.stelhosting.com/sftp).
 
 Both methods achieve the same outcome. After restarting the server, you will find your icon in the server list.
