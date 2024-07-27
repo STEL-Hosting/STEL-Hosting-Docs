@@ -60,7 +60,7 @@ When the backup action is called, your server will **not** be automatically stop
 
 In this example, we will be creating an announcement 60 seconds before the backup is taken.
 
-Follow the previous example until creating the first task, which should be the one below.
+Follow the previous example until creating the first task, which should be the one below:
 
 <center>![Schedule3](/img/schedule3.png)</center>
 
