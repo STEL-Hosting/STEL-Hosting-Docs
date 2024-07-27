@@ -10,6 +10,10 @@ All Minecraft servers are installed as the version chosen when ordering your ser
 
 A Vanilla server is the standard multiplayer server software by Mojang. Vanilla servers allow you to experience the classic version of Minecraft with your friends, without any modifications or other features. At STEL Hosting, you are welcome to change your Minecraft server software from Vanilla. Our game panel offers one-click installations for the most popular Minecraft server software such as Spigot, Paper, Purpur, Forge, BungeeCord, Waterfall, and Fabric.
 
+:::tip
+If you don't need to run mods on your server, we recommend using Purpur as your server software, as it offers additional optimizations over Vanilla/other CraftBukkit-based software like Spigot and Paper, which it's based on.
+:::
+
 ## How to Change Your Server Software
 To change your server software, log in to the [control panel](https://control.stelhosting.com/)
 
