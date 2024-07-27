@@ -60,6 +60,8 @@ When the backup action is called, your server will **not** be automatically stop
 
 In this example, we will be creating an announcement 60 seconds before the backup is taken.
 
+Follow the previous example until creating the first task, which should be the one below.
+
 <center>![Schedule3](/img/schedule3.png)</center>
 
 In the menu, make sure the action is set to `Send command`. The payload is the command that the schedule sends. In this case, we want the schedule to send a message to the server that the server will be restarting in 60 seconds. In the payload section, enter `say Server restarting in 60 seconds...`. The time offset for this task is `0` since it should be called as soon as the schedule is run.
