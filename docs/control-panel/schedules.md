@@ -85,11 +85,17 @@ Repeat this step 3 more times for `3`, `2`, and `1`. The time offset is still `1
 
 The last message that the server sends should be the restart announcement. Here, the payload is `say Server restarting...`
 
+<center>![Schedule10](/img/schedule10.png)</center>
+
 To stop the server before the backup, add a task with the `Send power action` action, with the payload: `Stop the server`. Time offset: `1`
 
 <center>![Schedule11](/img/schedule11.png)</center>
 
 After that task, create a task with the action `Create backup`. This will tell the schedule to create a backup after all the messages have been sent. The time offset should be at least `30` seconds.
+
+<center>![Schedule12](/img/schedule12.png)</center>
+
+To start the server after the backup, add a task with the `Send power action` action, with the payload: `Start the server`. The time offset should be at least `60` seconds.
 
 Once the schedule is complete, it should look like this:
 
