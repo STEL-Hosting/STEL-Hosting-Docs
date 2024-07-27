@@ -25,6 +25,7 @@ You will now see a pop-up that looks like this:
 You can use the `Show Cheatsheet` toggle to see a few other examples of cron expressions you can use, and what each special character does.
 <details>
 <summary>Cheatsheet</summary>
+
 ![Schedule15](/img/schedule15.png)
 </details>
 
